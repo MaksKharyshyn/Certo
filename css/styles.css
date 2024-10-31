@@ -29,3 +29,12 @@
     width: 20px;
     height: 14px;
 }
+
+.loved {
+    display: flex;
+}
+
+.icon-star {
+    height: 24px;
+    width: 24px;
+}
