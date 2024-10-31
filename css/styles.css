@@ -30,11 +30,24 @@
     height: 14px;
 }
 
-.loved {
-    display: flex;
-}
+/* loved styles */
 
 .icon-star {
     height: 24px;
     width: 24px;
 }
+
+.loved_list {
+   display: flex;
+}
+
+.featured_list {
+    display: flex;
+}
+
+.featured_icon {
+    width: 130px;
+    height: 95px;
+}
+
+
