@@ -1,0 +1,31 @@
+/* header styles */
+
+.header {
+    background-color: #F3F8FF;
+    display: flex;
+}
+
+.nav_list {
+    display: flex;
+}
+
+.icon-logo {
+    width: 157px;
+    height: 54px;
+}
+
+.icon-dropdown {
+    height: 7px;
+    width: 12px;
+}
+
+/* mobile styles */
+
+.mobile {
+    display: flex;
+}
+
+.icon-arrow {
+    width: 20px;
+    height: 14px;
+}
