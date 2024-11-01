@@ -403,6 +403,7 @@
     letter-spacing: -0.7px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 50px;
 }
 
 .someone_text {
@@ -411,19 +412,51 @@
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    margin-bottom: 60px;   
+}
+
+.someone_btn_block {
+  display: flex;
+  justify-content: center;
 }
 
 /* davidlaid styles */
 
-.davidlaid_title {
+.davidlaid {
+  padding: 84px 192px;
+  background-color: #F3F8FF;
+}
+
+.davidlaid_sub_title {
     font-family: Inter;
     font-size: 56px;
     font-weight: 800;
     line-height: 75px;
     letter-spacing: -1.2px;
     text-align: center;
-    color: #02033B;    
+    color: #02033B;
+    margin-bottom: 72px; 
+}
+
+.davidlaid_list {
+  display: flex;
+}
+
+.davidlaid_item {
+  margin-right: 48px;
+  border-radius: 48px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.davidlaid_item:last-child {
+  margin-right: 0;
+}
+
+.david_img {
+  width: 100%;
+  border-radius: 50px 50px 0px 0px;
 }
 
 .david_btn {
@@ -437,6 +470,9 @@
     background-color: #F3F8FF;
     padding: 12px 20px;
     border: none;
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
 }
 
 .davidlaid_title {
@@ -446,6 +482,8 @@
     line-height: 30px;
     text-align: left;
     color: #02033B;
+    margin-top: 47px;
+    padding: 0 55px;
 }
 
 .davidlaid_text {
@@ -454,7 +492,16 @@
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #02033B;    
+    color: #02033B;
+    margin-top: 25px;
+    padding: 0 45px;
+    margin-bottom: 20px;  
+}
+
+.davidlaid_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
 }
 
 /* footer styles */
