@@ -127,7 +127,8 @@
     letter-spacing: -0.7px;
     text-align: left;
     color: #02033B;
-    max-width: 520px; 
+    max-width: 520px;
+    margin-bottom: 73px; 
 }
 
 .icon-star {
@@ -189,6 +190,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 72px;
 }
 
 .loved_featured_title {
@@ -219,6 +221,12 @@
 
 .certo {
     display: flex;
+    padding: 84px 132px;
+  }
+
+.certo_left_block {
+    margin-right: 60px;
+    padding: 0 135px;
   }
   
   .certo_title {
@@ -229,6 +237,7 @@
     line-height: 45px;
     letter-spacing: -0, 72px;
     color: #02033b;
+    margin-bottom: 43px;
   }
   
   .certo_text {
@@ -238,11 +247,21 @@
     text-align-last: left;
     line-height: 30px;
     color: #02033b;
+    margin-bottom: 76px;
+  }
+
+  .certo_btn {
+    margin-bottom: 24px;
   }
 
 /*freedom styles */
 
-.freedom_title {
+.freedom {
+  background: linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%);
+  padding: 84px 300px;
+}
+
+.freedom_sub_title {
     font-family: Inter;
     font-size: 36px;
     font-weight: 800;
@@ -250,6 +269,22 @@
     letter-spacing: -0.7;
     text-align: center;
     color: #02033B;
+    padding: 0 100px;
+    margin-bottom: 73px;
+}
+
+.freedom_list {
+  box-shadow: 12px 12px 20px 0px #0000001A;
+  background-color: #FFFFFF;
+  border-radius: 48px;
+  padding: 72px;
+  display: flex;
+  margin-right: 48px;
+}
+
+.ico-freedom {
+  width: 72px;
+  height: 72px;
 }
 
 .freedom_title {
@@ -285,9 +320,22 @@
 
 /*read styles */
 
+.read {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 84px 264px;
+}
+
 .read_left {
     border-radius: 48px ;
     background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
+    padding: 47px 48px;
+    margin-right: 120px;
+}
+
+.read_left:last-child {
+  margin-right: 0;
 }
 
 .read_title {
@@ -298,6 +346,7 @@
     letter-spacing: -0.5px;
     text-align: left;
     color: #02033B;
+    margin-bottom: 25px;
 }
 
 .read_text {
@@ -306,7 +355,12 @@
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #02033B;    
+    color: #02033B;
+    margin-bottom: 48px;   
+}
+
+.arrow_white {
+  fill: #FFFFFF;
 }
 
 .blue_btn {
@@ -338,6 +392,7 @@
 
 .someone {
     background: linear-gradient(180deg, #2925CC 0%, #4B48E5 100%);
+    padding: 84px 345px;
 }
 
 .someone_title {
