@@ -471,8 +471,8 @@
     padding: 12px 20px;
     border: none;
     position: absolute;
-    right: 24px;
-    bottom: 24px;
+    left: 24px;
+    top: 24px;
 }
 
 .davidlaid_title {
@@ -507,123 +507,171 @@
 /* footer styles */
 
 .footer {
-    background-color: #02033b;
-  }
-  
-  .footer_wrapper {
-    display: flex;
-  }
-  
-  .footer_left_title {
-    font-family: Inter;
-    font-size: 23px;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: left;
-    line-height: 30px;
-    color: #ffffff;
-  }
-  
-  .social_list {
-    display: flex;
-  }
-  
-  .privacy_terms_text {
-    font-family: Inter;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    line-height: 15px;
-    color: #ffffff;
-    border-bottom: 1px solid #ffffff;
-    margin-right: 26px;
-  }
-  
-  .privacy_terms_text:last-child {
-    margin-right: 0;
-  }
-  
-  .footer_middle_title {
-    font-family: Inter;
-    font-size: 35px;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: left;
-    line-height: 4px;
-    color: #ffffff;
-  }
-  
-  .footer_middle_link {
-    font-family: Inter;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    line-height: 15px;
-    color: #ffc247;
-  }
-  
-  .footer_right {
-    background-color: #f1b857;
-    border-radius: 42px;
-  }
-  
-  .footer_rigt_title {
-    font-family: Inter;
-    font-size: 23px;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: left;
-    line-height: 30px;
-    letter-spacing: -0.48px;
-    color: #ffffff;
-  }
-  
-  .footer_rigt_text {
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #02033b;
-  }
-  
-  .footer_rigt_email {
-    border-radius: 30% 0 0 30%;
-    padding: 10px;
-  }
-  
-  .footer_rigt_btn {
-    border-radius: 0 35% 35% 0;
-    padding: 10px;
-    background-color: #02033b;
-    font-family: Inter;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: left;
-    color: #ffffff;
-  }
-  
-  .copyright_text,
-  .footer_bottom_text {
-    font-family: Inter;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    line-height: 15px;
-    color: #ffffff;
-  }
-  
-  .copyright_text_link {
-    border-bottom: 1px solid #ffffff;
-  }
-  
-  .social {
-    width: 36px;
-    height: 36px;
-  }
+  background-color: #02033b;
+  padding: 96px 192px;
+}
+
+.footer_wrapper {
+  display: flex;
+}
+
+.footer_left {
+  margin-right: 60px;
+}
+
+.footer_left_title {
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 49px;
+}
+
+.footer_social {
+  margin-bottom: 48px;
+}
+
+.social_list {
+  display: flex;
+}
+
+.social_item {
+  margin-right: 40px;
+}
+
+.social_item:last-child {
+  margin-right: 0;
+}
+
+.privacy_terms {
+  margin-bottom: 49px;
+}
+
+.privacy_terms_text {
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  line-height: 15px;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  margin-right: 26px;
+}
+
+.privacy_terms_text:last-child {
+  margin-right: 0;
+}
+
+.footer_middle {
+  margin-right: 60px;
+}
+
+.footer_middle_title {
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  line-height: 4px;
+  color: #ffffff;
+  margin-bottom: 85px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.footer_middle_item {
+  margin-bottom: 24px;
+}
+
+.footer_middle_item:last-child {
+  margin-bottom: 0;
+}
+
+.footer_middle_link {
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  line-height: 15px;
+  color: #ffc247;
+  margin-bottom: 300px;
+}
+
+.footer_right {
+  background-color: #f1b857;
+  border-radius: 42px;
+  padding: 35px 36px;
+}
+
+.footer_rigt_title {
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: -0.48px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer_rigt_text {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #02033b;
+  margin-bottom: 36px;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.footer_rigt_email {
+  border-radius: 30% 0 0 30%;
+  padding: 10px;
+}
+
+.footer_rigt_btn {
+  border-radius: 0 35% 35% 0;
+  padding: 10px;
+  background-color: #02033b;
+  font-family: Inter;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.copyright_text,
+.footer_bottom_text {
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer_bottom_text {
+  padding: 0 630px 0 0;
+}
+}
+
+.copyright_dick {
+ margin-bottom: 18px;
+}
+
+.copyright_text_link {
+  border-bottom: 1px solid #ffffff;
+}
+
+.social {
+  width: 36px;
+  height: 36px;
+}
 
 
 
