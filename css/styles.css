@@ -3,10 +3,25 @@
 .header {
     background-color: #F3F8FF;
     display: flex;
+    justify-content: space-around;
+    padding: 24px 120px;
+    align-items: center;
+}
+
+.header_nav {
+    margin-left: 260px;;
 }
 
 .nav_list {
     display: flex;
+}
+
+.nav_item {
+    margin-right: 48px;
+}
+
+.nav_item:last-child {
+    margin-right: 0;
 }
 
 .nav_link {
@@ -47,6 +62,10 @@
 .mobile {
     display: flex;
   }
+
+  .left_mobile_block {
+    padding: 124px 130px 124px 130px;
+  }
   
   .mobile_title {
     font-family: inter, Helvetica, sans-serif;
@@ -56,6 +75,7 @@
     line-height: 75px;
     letter-spacing: -1, 2px;
     color: #02033b;
+    margin-bottom: 48px;
   }
   
   .mobile_text {
@@ -65,6 +85,7 @@
     text-align-last: left;
     line-height: 30px;
     color: #02033b;
+    margin-bottom: 96px;
   }
   
   .mobile_btn {
@@ -74,6 +95,7 @@
     text-align-last: center;
     line-height: 30px;
     color: #02033b;
+    background-color: #FFFFFF;
     border-radius: 42px;
     padding: 16px 20px;
   }
@@ -93,7 +115,8 @@
 /* loved styles */
 
 .loved {
-    background-color: #F7C95F ,#FDB235;
+    background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
+    padding: 83px 96px;
 }
 
 .loved_title {
@@ -103,7 +126,8 @@
     line-height: 45px;
     letter-spacing: -0.7px;
     text-align: left;
-    color: #02033B;  
+    color: #02033B;
+    max-width: 520px; 
 }
 
 .icon-star {
@@ -115,13 +139,41 @@
    display: flex;
 }
 
+.loved_item {
+    background-color: #FFFFFF;
+    border-radius: 48px;
+    padding: 35px;
+    margin-right: 24px;
+}
+
+.loved_item:last-child {
+    margin-right: 0;
+}
+
+.stars_block {
+    margin-bottom: 24px;
+}
+
+.arrow {
+    border: solid red;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+.right {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
 .loved_text {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
-    color: #02033B;   
+    color: #02033B;
+    margin-bottom: 24px;   
 }
 
 .loved_sub_text {
@@ -133,6 +185,12 @@
     color: #02033B;    
 }
 
+.loved_featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .loved_featured_title {
     font-family: Inter;
     font-size: 23px;
@@ -140,11 +198,16 @@
     line-height: 30px;
     letter-spacing: -0.5px;
     text-align: left;
-    color: #02033B;    
+    color: #02033B;
+    margin-right: 73px;    
 }
 
 .featured_list {
     display: flex;
+}
+
+.featured_item {
+    margin-right: 36px;
 }
 
 .featured_icon {
@@ -194,7 +257,7 @@
     font-size: 19px;
     font-weight: 800;
     line-height: 25px;
-    letter-spacing: -0.4000000059604645px;
+    letter-spacing: -0.4px;
     text-align: center;
     color: #02033B;    
 }
@@ -221,6 +284,55 @@
 }
 
 /*read styles */
+
+.read_left {
+    border-radius: 48px ;
+    background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
+}
+
+.read_title {
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #02033B;
+}
+
+.read_text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #02033B;    
+}
+
+.blue_btn {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #4335DE;
+    border-radius: 42px;
+    padding: 16px 45px;
+    border: none;
+}
+
+.read_btn {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 18px;
+    text-align: left;
+    color: #02033B;
+    background-color: #ffffff;
+    border-radius: 42px;
+    padding: 16px 22px;
+}
 
 /*someone styles */
 
@@ -265,7 +377,11 @@
     font-weight: 800;
     line-height: 20px;
     text-align: left;
-    color: #02033B;   
+    color: #02033B;
+    border-radius: 48px;
+    background-color: #F3F8FF;
+    padding: 12px 20px;
+    border: none;
 }
 
 .davidlaid_title {
@@ -285,6 +401,127 @@
     text-align: left;
     color: #02033B;    
 }
+
+/* footer styles */
+
+.footer {
+    background-color: #02033b;
+  }
+  
+  .footer_wrapper {
+    display: flex;
+  }
+  
+  .footer_left_title {
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  
+  .social_list {
+    display: flex;
+  }
+  
+  .privacy_terms_text {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    line-height: 15px;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin-right: 26px;
+  }
+  
+  .privacy_terms_text:last-child {
+    margin-right: 0;
+  }
+  
+  .footer_middle_title {
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+    line-height: 4px;
+    color: #ffffff;
+  }
+  
+  .footer_middle_link {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    line-height: 15px;
+    color: #ffc247;
+  }
+  
+  .footer_right {
+    background-color: #f1b857;
+    border-radius: 42px;
+  }
+  
+  .footer_rigt_title {
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: -0.48px;
+    color: #ffffff;
+  }
+  
+  .footer_rigt_text {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #02033b;
+  }
+  
+  .footer_rigt_email {
+    border-radius: 30% 0 0 30%;
+    padding: 10px;
+  }
+  
+  .footer_rigt_btn {
+    border-radius: 0 35% 35% 0;
+    padding: 10px;
+    background-color: #02033b;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .copyright_text,
+  .footer_bottom_text {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    line-height: 15px;
+    color: #ffffff;
+  }
+  
+  .copyright_text_link {
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .social {
+    width: 36px;
+    height: 36px;
+  }
 
 
 
