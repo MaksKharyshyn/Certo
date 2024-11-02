@@ -257,29 +257,51 @@
 /*freedom styles */
 
 .freedom {
-  background: linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%);
+  background: linear-gradient(180deg, #f3f8ff 0%, #e7effa 100%);
   padding: 84px 300px;
 }
 
 .freedom_sub_title {
-    font-family: Inter;
-    font-size: 36px;
-    font-weight: 800;
-    line-height: 45px;
-    letter-spacing: -0.7;
-    text-align: center;
-    color: #02033B;
-    padding: 0 100px;
-    margin-bottom: 73px;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: -0.7;
+  text-align: center;
+  color: #02033b;
+  padding: 0 100px;
+  margin-bottom: 73px;
 }
 
-.freedom_list {
-  box-shadow: 12px 12px 20px 0px #0000001A;
-  background-color: #FFFFFF;
+.freedom_block {
+  box-shadow: 12px 12px 20px 0px #0000001a;
+  background-color: #ffffff;
   border-radius: 48px;
   padding: 72px;
+}
+.freedom_list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.freedom_item {
+  text-align: center;
   margin-right: 48px;
+  margin-bottom: 70px;
+}
+
+.freedom_item:last-child {
+  margin-right: 0;
+}
+
+.featured_icon {
+  margin-bottom: 24px;
+}
+
+.freedom_btn_block {
+  display: flex;
+  justify-content: center;
 }
 
 .ico-freedom {
@@ -288,36 +310,38 @@
 }
 
 .freedom_title {
-    font-family: Inter;
-    font-size: 19px;
-    font-weight: 800;
-    line-height: 25px;
-    letter-spacing: -0.4px;
-    text-align: center;
-    color: #02033B;    
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #02033b;
+  margin-bottom: 24px;
 }
 
 .freedom_text {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    color: #02033B; 
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #02033b;
+  max-width: 230px;
+  margin-bottom: 24px;
 }
 
 .freedom_btn {
-    font-family: Inter;
-    font-size: 19px;
-    font-weight: 800;
-    line-height: 22.5px;
-    text-align: center;
-    color: #02033B; 
-    background-color: #FFFFFF;
-    padding: 16px 23px;
-    border-radius: 42px; 
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 22.5px;
+  text-align: center;
+  color: #02033b;
+  background-color: #ffffff;
+  padding: 16px 23px;
+  border-radius: 42px;
 }
-
 /*read styles */
 
 .read {
